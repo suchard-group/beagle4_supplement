@@ -28,6 +28,8 @@ You can use the JAR file provided in `BEAST_JAR/beast.jar`.
 
 ## File structure
 
+Log files, BEAST XML files, and associated scripts to reproduce the results and figures have been deposited on [Zenodo](https://doi.org/10.5281/zenodo.20403169).
+
 ```
 ├── results
 │   ├── gpu_comparison_benchmarks
