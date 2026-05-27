@@ -4,7 +4,7 @@ Please see instructions to compile BEAGLE and install BEAST for reproducing the 
 
 ## Results
 
-Log files, BEAST XML files, and associated scripts to reproduce the results and figures have been deposited on [Zenodo](https://doi.org/10.5281/zenodo.20403169).
+Log files, BEAST XML files, and associated scripts to reproduce the results and figures have been deposited on [Zenodo](https://doi.org/10.5281/zenodo.20404492).
 
 ## Installation 
 
