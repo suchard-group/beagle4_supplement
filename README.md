@@ -11,7 +11,7 @@ Log files, BEAST XML files, and associated scripts to reproduce the results and 
 BEAGLE
 
 ```
-git clone -b tensor-cores https://github.com/beagle-dev/beagle-lib.git
+git clone https://github.com/beagle-dev/beagle-lib.git
 cd beagle-lib/
 mkdir build
 cd build/
@@ -25,6 +25,18 @@ You can set the install location using `CMAKE_INSTALL_PREFIX`.
 BEAST
 
 You can use the JAR file provided in `BEAST_JAR/beast.jar`.
+
+Alternatively, you can also compile the JAR file from [source](https://github.com/beast-dev/beast-mcmc) but to measure the time spent in BEAGLE, please set the following compile-time constant to true
+
+```
+public final static boolean BENCHMARK_TIME = true;
+```
+
+in the following files,
+
+* src/dr/inference/hmc/JointGradient.java
+* src/dr/inference/model/CompoundLikelihood.java
+* src/dr/evomodel/treedatalikelihood/TreeDataLikelihood.java
 
 ## File structure
 
